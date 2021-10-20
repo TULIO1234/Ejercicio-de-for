@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+  var compra = parseFloat(prompt("ingrese el valor de la compra"))
+  var edad = parseInt(prompt("ingrese tu edad"))
+
+  switch(edad){
+      case 18: document.write("tiene el 10% de descuento")
+      document.write(`descuento: ${compra*0.1}`)
+      document.write(`total a pagar $ {compra-(compra*0.1)}`)
+      break
+
+      case 25: document.write("tiene el 20% de descuento")
+      document.write (`descuento:${compra*0.2}`)
+      document.write(`total a pagar ${compra-(compra*0.2)}`)
+      break
+
+      case 40: document.write("tiene el 30% de descuento")
+      document.write(`descuento: ${compra*0.3}`)
+      document.write(`total a pagar $ {compra-(compra*0.3)}`)
+      break
+
+      case 50: document.write("tiene el 30% de descuento")
+      document.write(`descuento: ${compra*0.5}`)
+      document.write(`total a pagar $ {compra-(compra*0.5)}`)
+      break
+
+      default: document("lo siento, tu edad no esta contemplada en nuestra programa")
+      break 
+}
+
+</script>
+   
+<body>
+    
+</body>
+</html>
